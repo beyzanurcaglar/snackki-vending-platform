@@ -1,0 +1,17 @@
+.profile {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+}
+.profile .profileContainer {
+  flex: 6;
+}
+.profile .profileContainer .resetButton {
+  text-align: center;
+  width: 50%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: darkblue;
+  border: 2px solid rgba(0, 0, 139, 0.596);
+  cursor: pointer;
+}/*# sourceMappingURL=profile.css.map */

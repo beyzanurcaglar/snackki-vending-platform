@@ -1,0 +1,31 @@
+# --- Secrets (must never be committed) ---
+.env
+.env.*
+!.env.example
+*.ppk
+*.pem
+*.key
+public
+
+# --- Dependencies and build output ---
+node_modules/
+build/
+web/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+app/ios/Pods/
+app/ios/Flutter/ephemeral/
+app/macos/Flutter/ephemeral/
+app/android/.gradle/
+app/android/.kotlin/
+app/android/local.properties
+app/ios/Flutter/Generated.xcconfig
+app/ios/Flutter/flutter_export_environment.sh
+
+# --- Editor / OS files ---
+.DS_Store
+.idea/
+*.iml
+.vscode/
+*.log

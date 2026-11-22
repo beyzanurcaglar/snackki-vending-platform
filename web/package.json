@@ -1,0 +1,55 @@
+{
+  "name": "snackki-admin",
+  "version": "0.1.0",
+  "homepage": "/",
+  "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.4.4",
+    "@mui/material": "^5.4.4",
+    "@mui/x-data-grid": "^5.5.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.3.1",
+    "react-circular-progressbar": "^2.0.4",
+    "react-csv": "^2.2.2",
+    "react-dom": "^18.3.1",
+    "react-export-table-to-excel": "^1.0.6",
+    "react-google-recaptcha": "^2.1.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^7.18.6",
+    "react-select": "^5.7.3",
+    "react-toastify": "^9.1.3",
+    "recharts": "^2.1.9",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.49.9",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

@@ -1,0 +1,86 @@
+.single {
+  display: flex;
+  width: 100%;
+}
+.single .singleContainer {
+  flex: 6;
+}
+.single .singleContainer .top {
+  padding: 20px;
+  display: flex;
+}
+.single .singleContainer .top .left {
+  flex: 1;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  position: relative;
+}
+.single .singleContainer .top .left .editButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 12px;
+  color: #7451f8;
+  background-color: rgba(117, 81, 248, 0.0941176471);
+  cursor: pointer;
+  border-radius: 0px 0px 0px 5px;
+}
+.single .singleContainer .top .left .item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.single .singleContainer .top .left .item .itemImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.single .singleContainer .top .left .item .details {
+  align-items: center;
+  justify-content: center;
+}
+.single .singleContainer .top .left .item .details .formInput {
+  display: flex;
+  flex-direction: column;
+}
+.single .singleContainer .top .left .item .details .saveButton {
+  margin-top: 20px;
+}
+.single .singleContainer .top .left .item .detailsEdit {
+  display: grid;
+  gap: 20px;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+}
+.single .singleContainer .top .left .item .detailsEdit .formInput {
+  width: 50%;
+}
+.single .singleContainer .top .left .item .detailsEdit .formInput .itemValue {
+  border: 2px solid rgba(204, 204, 235, 0.596);
+  padding: 5px;
+  border-radius: 10px;
+}
+.single .singleContainer .top .left .item .saveButton {
+  cursor: pointer;
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: darkblue;
+  border: 2px solid rgba(0, 0, 139, 0.596);
+  cursor: pointer;
+}
+.single .singleContainer .top .right {
+  flex: 2;
+}
+.single .singleContainer .bottom {
+  box-shadow: 2px 4px 2px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  margin: 10px 20px;
+}
+.single .singleContainer .title {
+  font-size: 16px;
+  color: lightgray;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=productSingle.css.map */
