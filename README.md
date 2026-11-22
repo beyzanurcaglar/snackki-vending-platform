@@ -5,7 +5,7 @@ order coffee, tea and snacks for the machines at their location through a **mobi
 while the operator manages customers, machines, products, filters and orders in a
 **web admin panel**. Both clients talk to a shared **REST API**.
 
-> Developed during my internship at **Preunec GmbH** (Berlin). Published with permission.
+> Developed during my internship at **Preunec GmbH** (Berlin).
 
 ## Screenshots
 
